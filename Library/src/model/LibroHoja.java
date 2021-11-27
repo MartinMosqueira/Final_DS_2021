@@ -58,4 +58,9 @@ public class LibroHoja extends Librería{
                 "Edicion:"+this.getEdicion()+"\n"+
                 "Género:"+this.getGénero()+"\n";
     }
+
+    @Override
+    public String viewLibrería() {
+        return this.toStringLibrería();
+    }
 }

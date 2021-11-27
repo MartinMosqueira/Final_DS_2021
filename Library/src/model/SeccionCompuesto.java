@@ -25,4 +25,9 @@ public class SeccionCompuesto extends Librería{
     public String toStringLibrería() {
         return null;
     }
+
+    @Override
+    public String viewLibrería() {
+        return null;
+    }
 }

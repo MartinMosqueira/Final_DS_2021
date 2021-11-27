@@ -18,5 +18,6 @@ public abstract class Librería {
     public abstract void add(Librería l);
     public abstract void remove(Librería l);
     public abstract  String toStringLibrería();
+    public abstract String viewLibrería();
 
 }

@@ -46,4 +46,15 @@ class LibroHojaTest {
                 "Género:[]\n";
         assertEquals(expected,this.libroGoT1.toStringLibrería());
     }
+
+    @Test
+    void viewLibrería(){
+        String expected ="Libro:Cancion de hilo y fuego\n"+
+                "Autor:George R. R. Martin\n"+
+                "Idiomas:[]\n"+
+                "Editorial:debolsillo\n"+
+                "Edicion:2019\n"+
+                "Género:[]\n";
+        assertEquals(expected,this.libroGoT1.toStringLibrería());
+    }
 }

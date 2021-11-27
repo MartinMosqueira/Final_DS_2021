@@ -27,12 +27,13 @@ public class ColecciónCompuesto extends Librería{
         return "Colección: "+this.getNombre();
     }
 
-    public String listColección(){
-       String libros = "";
-       for(Librería item : listLibros){
-           libros+=item.toStringLibrería()+"\n";
-       }
-       return libros;
+    @Override
+    public String viewLibrería() {
+        String libros = "";
+        for(Librería item : listLibros){
+            libros+=item.toStringLibrería()+"\n";
+        }
+        return libros;
     }
 
 }

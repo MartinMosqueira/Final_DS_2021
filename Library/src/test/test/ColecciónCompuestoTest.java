@@ -44,13 +44,13 @@ class ColecciónCompuestoTest {
     }
 
     @Test
-    void listColección() {
+    void viewLibrería() {
         String expected ="Libro:Sinsajo\n"+
                 "Autor:Suzanne Collins\n"+
                 "Idiomas:[]\n"+
                 "Editorial:debolsillo\n"+
                 "Edicion:2017\n"+
                 "Género:[]\n\n";
-        assertEquals(expected,this.coleccionJA.listColección());
+        assertEquals(expected,this.coleccionJA.viewLibrería());
     }
 }
