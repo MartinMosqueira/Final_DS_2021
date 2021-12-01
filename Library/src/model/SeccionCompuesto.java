@@ -23,11 +23,15 @@ public class SeccionCompuesto extends Librería{
 
     @Override
     public String toStringLibrería() {
-        return null;
+        return "Seccion: "+this.getNombre();
     }
 
     @Override
     public String viewLibrería() {
-        return null;
+        String coleccion = "";
+        for(Librería item : listSeccion){
+            coleccion+=item.toStringLibrería()+"\n";
+        }
+        return coleccion;
     }
 }

@@ -56,7 +56,7 @@ public class LibroHoja extends Librería{
                 "Idiomas:"+this.getIdiomas()+"\n"+
                 "Editorial:"+this.getEditorial()+"\n"+
                 "Edicion:"+this.getEdicion()+"\n"+
-                "Género:"+this.getGénero()+"\n";
+                "Género:"+this.getGénero();
     }
 
     @Override

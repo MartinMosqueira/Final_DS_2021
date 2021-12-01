@@ -43,7 +43,7 @@ class LibroHojaTest {
                 "Idiomas:[]\n"+
                 "Editorial:debolsillo\n"+
                 "Edicion:2019\n"+
-                "Género:[]\n";
+                "Género:[]";
         assertEquals(expected,this.libroGoT1.toStringLibrería());
     }
 
@@ -54,7 +54,7 @@ class LibroHojaTest {
                 "Idiomas:[]\n"+
                 "Editorial:debolsillo\n"+
                 "Edicion:2019\n"+
-                "Género:[]\n";
+                "Género:[]";
         assertEquals(expected,this.libroGoT1.toStringLibrería());
     }
 }

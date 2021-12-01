@@ -50,7 +50,7 @@ class ColecciónCompuestoTest {
                 "Idiomas:[]\n"+
                 "Editorial:debolsillo\n"+
                 "Edicion:2017\n"+
-                "Género:[]\n\n";
+                "Género:[]\n";
         assertEquals(expected,this.coleccionJA.viewLibrería());
     }
 }
