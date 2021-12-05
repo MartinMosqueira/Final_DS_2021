@@ -16,6 +16,11 @@ public class NewRepository {
     public void DeleteRepository(GitUser user){
         users.remove(user);
     }
+
+    public int viewRepositoryUsers(){
+        return users.size();
+    }
+
     public void notifyCommit(){
         for(GitUser user: users){
             user.pull();

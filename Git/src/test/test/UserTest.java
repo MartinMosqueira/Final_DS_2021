@@ -17,9 +17,9 @@ class UserTest {
         respository = new Respository("Proyecto-Spring");
         user1 = new User("Luke Skywalker",respository);
         user2 = new User("Anakin Skywalker", respository);
-        respository.ForkRepository(user1);
-        respository.ForkRepository(user2);
-        respository.setCommit("Nuevas rutas de productos");
+        this.respository.ForkRepository(user1);
+        this.respository.ForkRepository(user2);
+        this.respository.setCommit("Nuevas rutas de productos");
     }
 
     @Test
@@ -30,9 +30,8 @@ class UserTest {
 
     @Test
     void DeleteRepo() {
-        respository.DeleteRepository(user2);
-        respository.DeleteRepository(user1);
-        String expected = "";
-        assertEquals(expected,user2.pull());
+        this.respository.DeleteRepository(user1);
+        Integer expected = 1;
+        assertEquals(expected,this.respository.viewRepositoryUsers());
     }
 }
