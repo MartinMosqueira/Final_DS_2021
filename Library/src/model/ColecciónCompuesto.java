@@ -14,7 +14,6 @@ public class ColecciónCompuesto extends Librería{
     @Override
     public void add(Librería l) {
         listLibros.add(l);
-        //TODO: hay que ver como hacer para que esta función solo pueda añadir libros y no colecciónes.
     }
 
     @Override

@@ -1,19 +1,17 @@
 package model;
 
+import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
 import java.io.InputStream;
 
-
-import javax.imageio.ImageIO;
-import javax.swing.*;
-
-public class HomeDark extends JFrame implements HomeButton {
+public class ContactLight extends JFrame implements ContactButton {
     Image image;
     InputStream imgStream;
 
-    public HomeDark(){
-        super("HomeDark");
+    public ContactLight(){
+        super("ContactLight");
         this.setSize(250, 400);
         this.setVisible(true);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -24,12 +22,11 @@ public class HomeDark extends JFrame implements HomeButton {
     @Override
     public void loadButton() {
         try {
-            imgStream = HomeDark.class.getResourceAsStream("../img/HomeDark.png");
+            imgStream = HomeDark.class.getResourceAsStream("../img/ContactLight.png");
             image = ImageIO.read(imgStream);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     @Override
@@ -39,5 +36,4 @@ public class HomeDark extends JFrame implements HomeButton {
         g2.fillRect(0, 0, 250, 400);
         g2.drawImage(image, 100, 50, 70, 70, null);
     }
-
 }
