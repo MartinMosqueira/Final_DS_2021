@@ -1,6 +1,6 @@
 package model;
 
-public class FactoryDarkIcons implements NavbarAbstractFactory{
+public class FactoryDarkIcons implements IconsAbstractFactory {
     @Override
     public HomeButton createHomeButton() {
         return new HomeDark();

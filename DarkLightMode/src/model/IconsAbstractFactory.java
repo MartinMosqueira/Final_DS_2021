@@ -1,6 +1,6 @@
 package model;
 
-public interface NavbarAbstractFactory {
+public interface IconsAbstractFactory {
     public HomeButton createHomeButton();
     public ContactButton createContactButton();
 }
