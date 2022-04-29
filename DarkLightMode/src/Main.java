@@ -1,10 +1,12 @@
-import model.ContactDark;
-import model.ContactLight;
-import model.HomeDark;
-import model.HomeLight;
+import model.*;
 
 public class Main {
+
     public static void main(String[] args) {
-        new ContactLight();
+        NavbarAbstractFactory FactoryDarkIcons = new FactoryDarkIcons();
+        Assembly assemblyDark = new Assembly(FactoryDarkIcons);
+
+        NavbarAbstractFactory FactoryLightIcons = new FactoryLightIcons();
+        Assembly assemblyLight = new Assembly(FactoryLightIcons);
     }
 }
