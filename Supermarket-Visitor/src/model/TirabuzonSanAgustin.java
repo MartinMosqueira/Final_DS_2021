@@ -5,7 +5,7 @@ public class TirabuzonSanAgustin implements Fideos{
     private String tipo;
     private int peso;
 
-    public TirabuzonSanAgustin(String marca, String tipo, int peso) {
+    public TirabuzonSanAgustin() {
         this.marca = "San Agustin";
         this.tipo = "Tirabuzón";
         this.peso = 500;

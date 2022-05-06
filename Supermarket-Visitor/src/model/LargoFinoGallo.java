@@ -5,7 +5,7 @@ public class LargoFinoGallo implements Arroz{
     private String tipo;
     private int peso;
 
-    public LargoFinoGallo(String marca, String tipo, int peso) {
+    public LargoFinoGallo() {
         this.marca = "Gallo";
         this.tipo = "Largo Fino";
         this.peso = 500;

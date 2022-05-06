@@ -5,7 +5,7 @@ public class MostacholLucchetti implements Fideos{
     private String tipo;
     private int peso;
 
-    public MostacholLucchetti(String marca, String tipo, int peso) {
+    public MostacholLucchetti() {
         this.marca = "Lucchetti";
         this.tipo = "Mostachol";
         this.peso = 600;

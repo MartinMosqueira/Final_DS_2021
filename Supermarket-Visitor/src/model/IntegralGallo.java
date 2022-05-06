@@ -5,7 +5,7 @@ public class IntegralGallo implements Arroz{
     private String tipo;
     private int peso;
 
-    public IntegralGallo(String marca, String tipo, int peso) {
+    public IntegralGallo() {
         this.marca = "Gallo";
         this.tipo = "Integral";
         this.peso = 500;
