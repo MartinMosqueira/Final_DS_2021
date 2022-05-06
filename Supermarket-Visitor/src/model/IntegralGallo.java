@@ -13,7 +13,7 @@ public class IntegralGallo implements Arroz{
 
     @Override
     public void accept(ProductsVisitor visitor) {
-
+        visitor.visit_integral_gallo(this);
     }
 
     @Override

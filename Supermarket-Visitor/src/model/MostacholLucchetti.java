@@ -13,7 +13,7 @@ public class MostacholLucchetti implements Fideos{
 
     @Override
     public void accept(ProductsVisitor visitor) {
-
+        visitor.visit_mostachol_lucchetti(this);
     }
 
     @Override

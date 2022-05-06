@@ -37,7 +37,7 @@ public class TirabuzonSanAgustin implements Fideos{
 
     @Override
     public void accept(ProductsVisitor visitor) {
-
+        visitor.visit_tirabuzon_sanAgustin(this);
     }
 
     @Override

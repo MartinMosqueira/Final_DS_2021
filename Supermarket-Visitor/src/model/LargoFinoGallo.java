@@ -13,7 +13,7 @@ public class LargoFinoGallo implements Arroz{
 
     @Override
     public void accept(ProductsVisitor visitor) {
-
+        visitor.visit_largoFino_gallo(this);
     }
 
     @Override
